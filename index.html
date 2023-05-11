@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.css">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <title>Moqups</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/moqups.png" alt="Moqups Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="scroll">Home</a></li>
+                <li><a href="#our-package" class="scroll">Our Package</a></li>
+                <li><a href="#call-us" class="scroll">Call Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="home">
+            <div class="container">
+                <h1>Top Rated E-Groceries Shop in Indonesian</h1>
+                <p>Every Day with the best ingredients</p>
+                <div class="content-wrapper">
+                    <div class="content">
+                        <div class="testimony">
+                            <img src="assets/Sayur.jpg" alt="Sayur">
+                            <p>"Setiap hari beli sayur buah yang fresh disini"</p>
+                            <div class="user">
+                                <div class="user-icon">
+                                    <i class="fa-regular fa-user"></i>
+                                </div>
+                                <div class="profile">
+                                    <p>Florence Hughes</p>
+                                    <span>Ibu Rumah Tangga, 28</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p>
+                                Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number-icon">
+                                        <i class="fa-solid fa-1"></i>
+                                    </div>
+                                    <p>
+                                        Your first feature, written in the form of a benefit statement.
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="number-icon">
+                                        <i class="fa-solid fa-2"></i>
+                                    </div>
+                                    <p>
+                                        Your first feature, written in the form of a benefit statement.
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="number-icon">
+                                        <i class="fa-solid fa-3"></i>
+                                    </div>
+                                    <p>
+                                        Your first feature, written in the form of a benefit statement.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <aside>
+                        <div class="form">
+                            <div class="form-title">
+                                <h3>Contact Us</h3>
+                                <p>
+                                    Sales will contact you 1x24 hours after we receive the data.
+                                </p>
+                            </div>
+                            <form name="form" method="post" onsubmit="return validateForm()">
+                                <div class="form-control">
+                                    <label class="form-label">Your Name:</label>
+                                    <input type="text" name="name" placeholder="Full Name" class="input-control" maxlength="100">
+                                </div>
+                                <div class="form-control">
+                                    <label class="form-label">Email Address:</label>
+                                    <input type="text" name="email" placeholder="example@email.com" class="input-control">
+                                </div>
+                                <div class="form-control">
+                                    <label class="form-label">What are you interested in?</label>
+                                    <select name="option" class="input-control">
+                                        <option value="0">Select Option</option>
+                                        <option value="1">Fresh Vegetables</option>
+                                        <option value="2">Fresh Fruits</option>
+                                        <option value="3">Others</option>
+                                    </select>
+                                </div>
+                                <input type="submit" value="Send" class="btn send">
+                            </form>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </article>
+        <article id="our-package">
+            <div class="main-title">
+                <h1>Our Package</h1>
+            </div>
+            <div class="package-list">
+                <div class="package">
+                    <div class="icon">
+                        <i class="fa-regular fa-lightbulb"></i>
+                    </div>
+                    <div class="desc">
+                        <p>
+                            Fresh Vegetables
+                        </p>
+                        <span>
+                            Fresh vegetables straight from the best farm sources.
+                        </span>
+                    </div>
+                </div>
+                <div class="package">
+                    <div class="icon">
+                        <i class="fa-regular fa-lightbulb"></i>
+                    </div>
+                    <div class="desc">
+                        <p>
+                            Fresh Fruits
+                        </p>
+                        <span>
+                            The best quality fruit from local or imported and the best price.
+                        </span>
+                    </div>
+                </div>
+                <div class="package">
+                    <div class="icon">
+                        <i class="fa-regular fa-lightbulb"></i>
+                    </div>
+                    <div class="desc">
+                        <p>
+                            Instant Delivery
+                        </p>
+                        <span>
+                            instant delivery by couriers who have been trained with SOPs to maintain the condition of your shopping.
+                        </span>
+                    </div>
+                </div>
+                <div class="package">
+                    <div class="icon">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="desc">
+                        <p>
+                            Kitchen Ingredient
+                        </p>
+                        <span>
+                            Complete kitchen spices for your cooking needs.
+                        </span>
+                    </div>
+                </div> 
+                <div class="package">
+                    <div class="icon">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="desc">
+                        <p>
+                            Kitchen Set
+                        </p>
+                        <span>
+                            All kinds of cooking tools to help you cook.
+                        </span>
+                    </div>
+                </div>
+                <div class="package">
+                    <div class="icon">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="desc">
+                        <p>
+                            Bundling Set
+                        </p>
+                        <span>
+                            Confused about what to cook? there are already packages available for you to cook in your kitchen.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="callus">
+            <h1>Your Closing Argument Headline</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed numquam, ipsa ut eligendi perferendis odio dignissimos facilis sapiente doloribus explicabo quo voluptates voluptate ad maiores delectus rerum aliquam ducimus amet.
+            </p>
+            <a href="">
+                <div class="btn">
+                    <p>Call to Action</p>
+                </div>
+            </a>
+        </article>
+        <footer>
+            <img src="assets/moqups.png" alt="Logo">
+            <div class="service">
+                <a href="#">Term of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <p>© 2023</p>
+            <a href="">
+                Moqups
+            </a>
+        </footer>
+    </main>
+    <script>
+        function validateForm() {
+            if (document.forms["form"]["nama"].value == "") {
+                alert("Name cannot be empty");
+                document.forms["form"]["name"].focus();
+                return false;
+            }
+            if (document.forms["form"]["email"].value == "") {
+                alert("Email cannot be empty");
+                document.forms["form"]["email"].focus();
+                return false;
+            }
+            if (document.forms["form"]["option"].selectedIndex < 1) {
+                alert("Select option");
+                document.forms["form"]["option"].focus();
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
